@@ -1,0 +1,71 @@
+#FA 1.1 - Intro to font awesome
+#FA 1.2 - What is font awesome
+#FA 1.3 - How to download font awesome
+#FA 1.4 - Edit our existing template to include font-awesome
+#FA 1.5 - The icon list
+#FA 1.6 - More examples
+#FA 1.7 - Adding your own styles
+#FA 1.8 - Outro to font awesome
+
+
+#FA 1.1 - Intro to font awesome
+Hey, Chris from Codify Academy here, In this video I'm going to show you how to use someone else's code in your projects.
+
+Since you're developer, you should try and use code that's been written and then modify that what we need.
+
+On any given project, I would say 80-90% of our code, We didn't write ourself. We do understand it and could have written it, but there is no reason for us to do that if it's already been done.
+
+It like saying I'm going to start a car company, but I can't use the wheel, or other components of a car. I have to start from nothing. When in reality you would use the wheel, you would use other components of existing cars, and you would probably look a lot of other car designs before building yours.
+
+So that's what we do as developer, we are websites without reinventing the internet.
+
+
+
+#FA 1.2 - What is font awesome
+Ok ,so a quick overview of Font-awesome, its code someone created, the code lets us display icons with CSS, as long as we include that code in a project, we too can have icons!
+
+
+
+#FA 1.3 - How to download font awesome
+To do this, we need to go to fontawesome.com, and click on download.
+Go to your downloads folder, extract the files, and move the whole folder to your desktop.
+
+
+
+#FA 1.4 - Edit our existing template to include font-awesome
+Now we have their code, we just need to include it in a project
+and I want to upgrade our template folder so we can use icons in any project.
+
+Remember we deleted the connection to GitHub when we deleted our .git hidden folder.
+So we need to re-download that project, go to that GitHub repo and copy the clone url.
+then open your terminal, change directory to your codify folder, we can cd to desktop then into codify.
+we can confirm our location here.
+then type git clone, paste the url and press enter.
+
+Open up the the codify folder and we need to copy the fonts folder into the template, and copy font-awesome.css into you css folder.
+
+Last we connect it, so add a link tag and tell that link where that file is.
+it should be in a css folder and the file is font-awesome.css
+
+
+
+#FA 1.5 - The icon list
+Now we should be able to use it, return to the browser and change to the icon tab, and here is a list of all the icons we could add now that we included this code.
+
+Go through and fine one you like and click on it. and it will show you how this is created, we use a i tag and then add some attributes. The most important are the classes here, we need fa and fa plus the icon name and that is how they are used.
+
+
+
+#FA 1.6 - More examples
+Check out the examples tab next, here you'll see more ways you can change these icons, again most of the power is coming for the class names we add to an element with an icon.
+
+
+#FA 1.7 - Adding your own styles
+and because they use classes to create these font icons, we can add additional CSS to any of the classes.
+so we can change things like color, font-size, background-color and more
+
+spend a few minutes playing with font awesome icons.
+
+
+#FA 1.8 - Outro to font awesome
+Thats it for this video, so lets re-upload our changes and finally delete the hidden .git folder from the template again, so when we make copies of this folder for a new project we will be able to load it to new repo.
